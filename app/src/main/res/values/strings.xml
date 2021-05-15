@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">LoginScreenApp</string>
+    <string name="hello_world">Hello world</string>
+    <string name="increment">Increment</string>
+    <string name="login">Login</string>
+    <string name="email_hint">Please enter your email:</string>
+    <string name="email_text">Email:</string>
+
+    <string name="email_result_text">Your email is: %s</string>
+    <string name="password_result_text">Your password is: %s</string>
+    <string name="zero">0</string>
+    <string name="password_text">Password:</string>
+    <string name="password_hint">Please enter your password here</string>
+    <string name="sign_up">If you don\'t have any account, signUp here</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="sign_up_button">Sign up</string>
+    <string name="name_text">Name:</string>
+    <string name="last_name_text">Last name:</string>
+
+    <string name="sign_up_successful">Signup is successful</string>
+    <string name="not_valid_email">Email is not valid</string>
+    <string name="not_valid_name">Name is not valid</string>
+    <string name="not_valid_password">Password should contain more than 4 letters</string>
+
+    <string name="greetings_message">Hello %s %s, welcome again !</string>
+    <string name="email_message">Your email address is: %s</string>
+    <string name="logout">Log out</string>
+</resources>
