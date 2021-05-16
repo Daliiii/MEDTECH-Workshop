@@ -25,4 +25,10 @@
     <string name="greetings_message">Hello %s %s, welcome again !</string>
     <string name="email_message">Your email address is: %s</string>
     <string name="logout">Log out</string>
+    <string name="call_failed">Call request failed</string>
+    <string name="cat_image">Cat image</string>
+    <string name="clicked_cat">Cat clicked name is: %s</string>
+    <string name="loading_failed">Cannot fetch data</string>
+    <string name="empty_list">your list is empty</string>
+    <string name="retry">Retry</string>
 </resources>

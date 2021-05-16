@@ -4,6 +4,7 @@ import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.medtech.loginscreenapp.cat.CatListActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_main.emailEditText
 import kotlinx.android.synthetic.main.activity_sign_up.*
@@ -43,10 +44,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun openMainScreen() {
-        val intent = Intent(this@MainActivity, MainScreenActivity::class.java)
-        intent.putExtra(EMAIL_KEY, emailEditText.text.toString())
-        intent.putExtra(NAME_KEY, "MSB")
-        intent.putExtra(LAST_NAME_KEY, "MSB")
+        val intent = Intent(this@MainActivity, CatListActivity::class.java)
         startActivity(intent)
     }
 
